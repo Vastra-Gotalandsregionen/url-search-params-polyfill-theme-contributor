@@ -1,0 +1,5 @@
+Bundle-Name: url-search-params-polyfill-theme-contributor
+Bundle-SymbolicName: url.search.params.polyfill.theme.contributor
+Bundle-Version: 1.0.0
+Liferay-Theme-Contributor-Type: url-search-params-polyfill-theme-contributor
+Web-ContextPath: /url-search-params-polyfill-theme-contributor-theme-contributor
