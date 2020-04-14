@@ -341,3 +341,11 @@
     }
   
   })(typeof global !== 'undefined' ? global : (typeof window !== 'undefined' ? window : this));
+
+if (window.URL) {
+  Object.defineProperty(URL.prototype, 'searchParams', {
+    get: function () {
+      return new URLSearchParams(this.search)
+    }
+  })
+}
